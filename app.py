@@ -285,7 +285,6 @@ def check_login():
         </div>
         """, unsafe_allow_html=True)
 
-        st.markdown("<div class='card'>", unsafe_allow_html=True)
         st.markdown("### Identificación")
         usuario = st.text_input("Usuario", placeholder="usuario")
         password = st.text_input("Contraseña", type="password", placeholder="••••••••")
@@ -296,7 +295,6 @@ def check_login():
                 st.rerun()
             else:
                 st.markdown("<div class='error-msg'>Usuario o contraseña incorrectos.</div>", unsafe_allow_html=True)
-        st.markdown("</div>", unsafe_allow_html=True)
         st.stop()
 
 check_login()
