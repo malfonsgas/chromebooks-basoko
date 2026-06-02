@@ -225,6 +225,45 @@ h1, h2, h3 { font-family: 'DM Sans', sans-serif; font-weight: 600; }
     opacity: 0.9 !important;
     transform: translateY(-1px);
 }
+
+
+/* Inputs en tema claro */
+[data-testid="stSelectbox"] > div > div,
+[data-testid="stTextInput"] > div > div > input {
+    background: #ffffff !important;
+    border: 1px solid #c8d6e5 !important;
+    color: #1e293b !important;
+    border-radius: 8px !important;
+}
+
+[data-testid="stTextInput"] > div > div > input::placeholder {
+    color: #94a3b8 !important;
+}
+
+[data-testid="stTextArea"] textarea {
+    background: #ffffff !important;
+    border: 1px solid #c8d6e5 !important;
+    color: #1e293b !important;
+    border-radius: 8px !important;
+}
+
+[data-testid="stCheckbox"] label {
+    color: #1e293b !important;
+}
+
+/* Labels de los campos */
+[data-testid="stTextInput"] label,
+[data-testid="stSelectbox"] label,
+[data-testid="stTextArea"] label {
+    color: #475569 !important;
+}
+
+
+
+
+
+
+
 </style>
 """, unsafe_allow_html=True)
 
