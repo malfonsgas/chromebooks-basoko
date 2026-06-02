@@ -478,7 +478,9 @@ lista_chromebooks = sorted(chromebooks.keys())
 lista_otros = ["CAU", "Gobierno de Navarra", "Microchip", "Otro"]
 
 # ── FORMULARIO ──
-st.markdown("<div class='card'>", unsafe_allow_html=True)
+
+
+
 st.markdown("### Nueva acción")
 
 col1, col2 = st.columns([3, 1])
@@ -555,7 +557,6 @@ st.markdown("---")
 pendiente_pago = st.checkbox("💳 Pendiente de pago por reparación")
 observaciones = st.text_area("📝 Observaciones", placeholder="Opcional...", height=80)
 
-st.markdown("</div>", unsafe_allow_html=True)
 
 # ── BOTÓN REGISTRAR ──
 if st.button("✓ Registrar acción", use_container_width=True):
