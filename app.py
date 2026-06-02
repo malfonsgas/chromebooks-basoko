@@ -72,17 +72,17 @@ st.markdown("""
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap');
 
 :root {
-    --bg: #0f1117;
-    --surface: #1a1d27;
-    --surface2: #22263a;
-    --border: #2e3250;
-    --accent: #4f8ef7;
-    --accent2: #7c5cfc;
-    --success: #22c55e;
-    --error: #ef4444;
-    --warning: #f59e0b;
-    --text: #e8eaf6;
-    --text2: #8b92b8;
+    --bg: #f0f4f8;
+    --surface: #ffffff;
+    --surface2: #e8eef5;
+    --border: #c8d6e5;
+    --accent: #2563eb;
+    --accent2: #4f46e5;
+    --success: #16a34a;
+    --error: #dc2626;
+    --warning: #d97706;
+    --text: #1e293b;
+    --text2: #475569;
 }
 
 html, body, [data-testid="stAppViewContainer"] {
